@@ -8,7 +8,7 @@ import os
 app = FastAPI()
 
 SUPABASE_URL = os.getenv("https://ntsgzqxvjpwjocnksjgx.supabase.co")
-SUPABASE_KEY = os.getenv("SUPABASE_SERVICE_ROLE_KEY")
+SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im50c2d6cXh2anB3am9jbmtzamd4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc1NTY2ODAsImV4cCI6MjA2MzEzMjY4MH0.cWMY59C4EwY7QqOcMMxEFd3acHRjbFIBVR6AD6foekI")
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 class ScholarRequest(BaseModel):
