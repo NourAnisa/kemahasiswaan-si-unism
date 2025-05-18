@@ -1,1 +1,7 @@
-pip install scholarly
+fastapi
+uvicorn
+scholarly
+python-dotenv
+httpx
+supabase
+supabase-py
