@@ -1,7 +1,0 @@
-fastapi
-uvicorn
-scholarly
-python-dotenv
-httpx
-supabase
-supabase-py
